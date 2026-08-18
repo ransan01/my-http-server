@@ -1,6 +1,36 @@
 {
-    "address": "localhost",
-    "port": "8080",
-    "certFile": "cert.pem",
-    "keyFile": "key.pem"
-}
+    "Configurations": [
+      {
+        "Types": {
+          "Json": {
+            "Name": "Address",
+            "Value": "localhost"
+          }
+        }
+      },
+      {
+        "Types": {
+          "Json": {
+            "Name": "Port",
+            "Value": "8080"
+          }
+        }
+      },
+      {
+        "Types": {
+          "Json": {
+            "Name": "CertFile",
+            "Value": "../../cert.pem"
+          }
+        }
+      },
+      {
+        "Types": {
+          "Json": {
+            "Name": "KeyFile",
+            "Value": "../../key.pem"
+          }
+        }
+      }
+    ]
+  }
